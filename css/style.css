@@ -1,0 +1,59 @@
+/* BLOCCO LEZIONI */
+
+#lezioni {
+  text-align: center;
+}
+
+/* BLOCCO STEPS */
+
+#steps {
+  text-align: center;
+}
+
+/* BLOCCO PERCHE */
+#why {
+  text-align: center;
+}
+
+#why.container img {
+  background-color: #428bca;
+  border-radius: 50%;
+  padding: 30px
+}
+
+/* COMMON */
+
+img {
+  width: 100%;
+  height: 100%;
+  max-width: 200px;
+  max-height: 200px;
+}
+
+[class*="col-"] {
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+/* RESPONSIVE */
+
+@media all and (max-width: 767px) {
+  #lezioni.container,
+  #why.container {
+    background-color: #F2F2CD;
+  }
+}
+
+@media all and (min-width: 768px) and (max-width: 991px) {
+  #lezioni.container,
+  #why.container {
+    background-color: #d1c6ff;
+  }
+}
+
+@media all and (min-width: 992px) {
+  #lezioni.container,
+  #why.container {
+    /* background-color: #B2E8A1; */
+  }
+}
